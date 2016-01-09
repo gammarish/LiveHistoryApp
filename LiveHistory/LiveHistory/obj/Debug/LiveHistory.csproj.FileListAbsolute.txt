@@ -24,3 +24,35 @@ c:\users\l.krupa\documents\visual studio 2013\Projects\LiveHistory\LiveHistory\b
 c:\users\l.krupa\documents\visual studio 2013\Projects\LiveHistory\LiveHistory\obj\Debug\LiveHistory.csprojResolveAssemblyReference.cache
 c:\users\l.krupa\documents\visual studio 2013\Projects\LiveHistory\LiveHistory\obj\Debug\LiveHistory.dll
 c:\users\l.krupa\documents\visual studio 2013\Projects\LiveHistory\LiveHistory\obj\Debug\LiveHistory.pdb
+C:\Users\l.krupa\Documents\GitHub\LiveHistory\LiveHistory\LiveHistory\bin\LiveHistory.dll.config
+C:\Users\l.krupa\Documents\GitHub\LiveHistory\LiveHistory\LiveHistory\bin\LiveHistory.dll
+C:\Users\l.krupa\Documents\GitHub\LiveHistory\LiveHistory\LiveHistory\bin\LiveHistory.pdb
+C:\Users\l.krupa\Documents\GitHub\LiveHistory\LiveHistory\LiveHistory\bin\Antlr3.Runtime.dll
+C:\Users\l.krupa\Documents\GitHub\LiveHistory\LiveHistory\LiveHistory\bin\EntityFramework.dll
+C:\Users\l.krupa\Documents\GitHub\LiveHistory\LiveHistory\LiveHistory\bin\EntityFramework.SqlServer.dll
+C:\Users\l.krupa\Documents\GitHub\LiveHistory\LiveHistory\LiveHistory\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\l.krupa\Documents\GitHub\LiveHistory\LiveHistory\LiveHistory\bin\Newtonsoft.Json.dll
+C:\Users\l.krupa\Documents\GitHub\LiveHistory\LiveHistory\LiveHistory\bin\System.Web.Helpers.dll
+C:\Users\l.krupa\Documents\GitHub\LiveHistory\LiveHistory\LiveHistory\bin\System.Web.Mvc.dll
+C:\Users\l.krupa\Documents\GitHub\LiveHistory\LiveHistory\LiveHistory\bin\System.Web.Optimization.dll
+C:\Users\l.krupa\Documents\GitHub\LiveHistory\LiveHistory\LiveHistory\bin\System.Web.Razor.dll
+C:\Users\l.krupa\Documents\GitHub\LiveHistory\LiveHistory\LiveHistory\bin\System.Web.WebPages.Deployment.dll
+C:\Users\l.krupa\Documents\GitHub\LiveHistory\LiveHistory\LiveHistory\bin\System.Web.WebPages.dll
+C:\Users\l.krupa\Documents\GitHub\LiveHistory\LiveHistory\LiveHistory\bin\System.Web.WebPages.Razor.dll
+C:\Users\l.krupa\Documents\GitHub\LiveHistory\LiveHistory\LiveHistory\bin\WebGrease.dll
+C:\Users\l.krupa\Documents\GitHub\LiveHistory\LiveHistory\LiveHistory\bin\EntityFramework.xml
+C:\Users\l.krupa\Documents\GitHub\LiveHistory\LiveHistory\LiveHistory\bin\EntityFramework.SqlServer.xml
+C:\Users\l.krupa\Documents\GitHub\LiveHistory\LiveHistory\LiveHistory\bin\System.Web.Helpers.xml
+C:\Users\l.krupa\Documents\GitHub\LiveHistory\LiveHistory\LiveHistory\bin\System.Web.Mvc.xml
+C:\Users\l.krupa\Documents\GitHub\LiveHistory\LiveHistory\LiveHistory\bin\System.Web.Optimization.xml
+C:\Users\l.krupa\Documents\GitHub\LiveHistory\LiveHistory\LiveHistory\bin\System.Web.Razor.xml
+C:\Users\l.krupa\Documents\GitHub\LiveHistory\LiveHistory\LiveHistory\bin\System.Web.WebPages.xml
+C:\Users\l.krupa\Documents\GitHub\LiveHistory\LiveHistory\LiveHistory\bin\System.Web.WebPages.Deployment.xml
+C:\Users\l.krupa\Documents\GitHub\LiveHistory\LiveHistory\LiveHistory\bin\System.Web.WebPages.Razor.xml
+C:\Users\l.krupa\Documents\GitHub\LiveHistory\LiveHistory\LiveHistory\bin\Antlr3.Runtime.pdb
+C:\Users\l.krupa\Documents\GitHub\LiveHistory\LiveHistory\LiveHistory\bin\Newtonsoft.Json.xml
+C:\Users\l.krupa\Documents\GitHub\LiveHistory\LiveHistory\LiveHistory\obj\Debug\LiveHistory.csprojResolveAssemblyReference.cache
+C:\Users\l.krupa\Documents\GitHub\LiveHistory\LiveHistory\LiveHistory\obj\Debug\LiveHistory.dll
+C:\Users\l.krupa\Documents\GitHub\LiveHistory\LiveHistory\LiveHistory\obj\Debug\LiveHistory.pdb
+C:\Users\l.krupa\Documents\GitHub\LiveHistory\LiveHistory\LiveHistory\obj\Debug\LiveHistory.Migrations.Initial.resources
+C:\Users\l.krupa\Documents\GitHub\LiveHistory\LiveHistory\LiveHistory\obj\Debug\LiveHistory.csproj.GenerateResource.Cache

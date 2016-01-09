@@ -1,4 +1,6 @@
-﻿using System;
+﻿using LiveHistory.Common;
+using LiveHistory.Models;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
@@ -8,23 +10,31 @@ namespace LiveHistory.Controllers
 {
     public class HomeController : Controller
     {
+        MainDBContext context = new MainDBContext();
+
+        // GET: Home
         public ActionResult Index()
         {
+
+            ViewBag.Title = "Home Page";
             return View();
         }
 
-        public ActionResult About()
+        public JsonResult GetDetailsForMarkers()
         {
-            ViewBag.Message = "Your application description page.";
+            RouteModel model = new RouteModel();
 
-            return View();
+            model.Points = GetCollectionOfPoints();
+            return new JsonResult() { Data = new ResultType<List<PointModel>>(model.Points), JsonRequestBehavior = JsonRequestBehavior.AllowGet };
         }
 
-        public ActionResult Contact()
+        private List<PointModel> GetCollectionOfPoints()
         {
-            ViewBag.Message = "Your contact page.";
+            PointModel points = new PointModel();
 
-            return View();
+
+            List<PointModel> empList = context.Point.ToList();
+            return empList;
         }
     }
 }
