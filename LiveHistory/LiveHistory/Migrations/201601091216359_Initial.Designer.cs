@@ -13,7 +13,7 @@ namespace LiveHistory.Migrations
         
         string IMigrationMetadata.Id
         {
-            get { return "201601091122548_Initial"; }
+            get { return "201601091216359_Initial"; }
         }
         
         string IMigrationMetadata.Source
