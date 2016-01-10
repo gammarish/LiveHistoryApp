@@ -23,17 +23,20 @@ var StyleSwitcher = function () {
             });
 
             var setColor = function (color, data_header) {
-                jQuery('#style_color').attr("href", "../assets/css/theme-colors/" + color + ".css");
+                jQuery('#style_color').attr("href", "../assets/css/css-rtl/theme-colors/" + color + ".css");
                 if(data_header == 'light'){
-                    jQuery('#logo-header').attr("src", "../assets/img/logo1-" + color + ".png");
-                    jQuery('#logo-footer').attr("src", "../assets/img/logo2-" + color + ".png");
+                    jQuery('.logo img').attr("src", "../assets/img/themes/logo1-" + color + ".png");
+                    jQuery('#logo-footer').attr("src", "../assets/img/themes/logo2-" + color + ".png");
+                    if (!jQuery(".navbar-brand img[src~='logo3-']")) {
+                        jQuery('.navbar-brand img').attr("src", "../assets/img/themes/logo1-" + color + ".png");
+                    }
                 } else if(data_header == 'dark'){
-                    jQuery('#logo-header').attr("src", "../assets/img/logo1-" + color + ".png");
-                    jQuery('#logo-footer').attr("src", "../assets/img/logo2-" + color + ".png");
+                    jQuery('.logo img').attr("src", "../assets/img/themes/logo1-" + color + ".png");
+                    jQuery('#logo-footer').attr("src", "../assets/img/themes/logo2-" + color + ".png");
                 }
             }
 
-            //Dark Layout
+            //Boxed Layout
             jQuery('.skins-btn').click(function(){
                 jQuery(this).addClass("active-switcher-btn");
                 jQuery(".handle-skins-btn").removeClass("active-switcher-btn");
@@ -43,6 +46,19 @@ var StyleSwitcher = function () {
                 jQuery(this).addClass("active-switcher-btn");
                 jQuery(".skins-btn").removeClass("active-switcher-btn");
                 jQuery("body").removeClass("dark");                
+            });
+
+
+            //Boxed Layout
+            jQuery('.boxed-layout-btn').click(function(){
+                jQuery(this).addClass("active-switcher-btn");
+                jQuery(".wide-layout-btn").removeClass("active-switcher-btn");
+                jQuery("body").addClass("boxed-layout container");
+            });
+            jQuery('.wide-layout-btn').click(function(){
+                jQuery(this).addClass("active-switcher-btn");
+                jQuery(".boxed-layout-btn").removeClass("active-switcher-btn");
+                jQuery("body").removeClass("boxed-layout container");
             });
 
         }

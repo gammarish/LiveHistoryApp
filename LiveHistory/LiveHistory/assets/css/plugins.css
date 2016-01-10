@@ -71,7 +71,8 @@
   border-radius: 10px !important;
 }
 
-.tp-banner-container ul li {
+.tp-banner-container ul li,
+.fullscreenbanner-container ul li {
   list-style: none;
   visibility: hidden;
 }

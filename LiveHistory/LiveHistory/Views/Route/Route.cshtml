@@ -1,0 +1,38 @@
+﻿
+@{
+    ViewBag.Title = "Route";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Route</h2>
+
+@model LiveHistory.Models.RouteModel
+
+
+
+<style>
+    #map_canvas img {
+        max-width: none;
+    }
+</style>
+
+<style>
+    .infoDiv {
+        height: 200px;
+        width: 300px;
+        -webkit-user-select: none;
+        background-color: white;
+    }
+</style>
+
+
+
+
+
+<div class="row">
+
+    <div id="mapContainer" class="col-md-2 col-md-offset-2">
+        <div id="map_canvas" style="height: 600px; width:1200px;">
+        </div>
+    </div>
+</div>
