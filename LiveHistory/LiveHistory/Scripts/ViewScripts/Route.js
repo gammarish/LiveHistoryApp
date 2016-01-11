@@ -6,12 +6,12 @@ var chartsItems = [];
 $(function () {
     $.extend(true, CC,
     {
-        Home: function () {
+        Route: function () {
 
             this.getDetailsForMarkers = function () {
                 $.ajax({
                     type: "GET",
-                    url: CC.Common.UrlHelper("GetDetailsForMarkers", "Home"),
+                    url: CC.Common.UrlHelper("GetDetailsForMarkers", "Route"),
                     contentType: "application/json;charset=utf-8",
                     cache: false,
                     dataType: "json",
@@ -49,6 +49,6 @@ $(function () {
 var homeObj = null
 
 $(document).ready(function () {
-    homeObj = new CC.Home();
+    homeObj = new CC.Route();
 
 });

@@ -1588,7 +1588,7 @@
     <Content Include="Scripts\respond.min.js" />
     <Content Include="Scripts\ViewScripts\Common.js" />
     <Content Include="Scripts\ViewScripts\GoogleMaps.js" />
-    <Content Include="Scripts\ViewScripts\Home.js" />
+    <Content Include="Scripts\ViewScripts\Route.js" />
     <Content Include="Scripts\_references.js" />
     <Content Include="Web.config">
       <SubType>Designer</SubType>

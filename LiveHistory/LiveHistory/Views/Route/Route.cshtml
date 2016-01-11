@@ -4,9 +4,12 @@
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
-<h2>Route</h2>
 
 @model LiveHistory.Models.RouteModel
+
+<script src="~/Scripts/ViewScripts/Common.js"></script>
+<script src="~/Scripts/ViewScripts/GoogleMaps.js"></script>
+<script src="~/Scripts/ViewScripts/Route.js"></script>
 
 
 
@@ -28,8 +31,7 @@
 
 
 
-
-<div class="row">
+<div class="row margin-top-70">
 
     <div id="mapContainer" class="col-md-2 col-md-offset-2">
         <div id="map_canvas" style="height: 600px; width:1200px;">

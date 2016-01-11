@@ -26,11 +26,17 @@ namespace LiveHistory
             //    defaults: new { controller = "Ranking", action = "Ranking", id = UrlParameter.Optional }
             // );
 
-            //routes.MapRoute(
-            //    name: "RouteList",
-            //    url: "{controller}",
-            //    defaults: new { controller = "RouteList", action = "RouteList", id = UrlParameter.Optional }
-            //);
+            routes.MapRoute(
+                name: "Route",
+                url: "Route/{controller}/{action}",
+                defaults: new { controller = "Route", action = "Route", id = UrlParameter.Optional }
+            );
+
+            routes.MapRoute(
+               name: "Route2",
+               url: "{controller}/{action}",
+               defaults: new { controller = "Route", action = "Route", id = UrlParameter.Optional }
+           );
 
             routes.MapRoute(
                 name: "Default",
