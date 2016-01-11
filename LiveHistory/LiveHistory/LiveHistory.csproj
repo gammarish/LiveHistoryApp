@@ -118,10 +118,12 @@
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Common\ResultType.cs" />
+    <Compile Include="Controllers\AccountController.cs" />
     <Compile Include="Controllers\ContactController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\RouteController.cs" />
     <Compile Include="Controllers\RankingController.cs" />
+    <Compile Include="Controllers\RouteDetailsController.cs" />
     <Compile Include="Controllers\RouteListController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
@@ -1607,6 +1609,9 @@
     <Content Include="Views\RouteList\RouteList.cshtml" />
     <Content Include="Views\Route\Route.cshtml" />
     <Content Include="Views\Contact\Contact.cshtml" />
+    <Content Include="Views\RouteDetails\RouteDetails.cshtml" />
+    <Content Include="Views\Account\Login.cshtml" />
+    <Content Include="Views\Account\Register.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
