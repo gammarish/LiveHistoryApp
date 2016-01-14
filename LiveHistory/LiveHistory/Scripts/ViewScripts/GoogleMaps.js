@@ -1,7 +1,8 @@
 ﻿// Where all the fun happens 
 function Initialize() {
 
-    var minZoomLevel = 13;
+    var minZoomLevel = 16;
+    var maxZoomLevel = 14;
 
     // Google has tweaked their interface somewhat - this tells the api to use that new UI
     google.maps.visualRefresh = true;
@@ -43,7 +44,7 @@ function Initialize() {
 
             // Limit the zoom level
             google.maps.event.addListener(map, 'zoom_changed', function () {
-                if (map.getZoom() < minZoomLevel) map.setZoom(minZoomLevel);
+                if (map.getZoom() < maxZoomLevel) map.setZoom(maxZoomLevel);
             });
 
         });
@@ -59,9 +60,15 @@ function Initialize() {
                 lng: position.coords.longitude
             };
 
-            infoWindow.setPosition(pos);
-            infoWindow.setContent('Jesteś tutaj');
             map.setCenter(pos);
+
+            var marker = new google.maps.Marker({
+                position: pos,
+                map: map,
+                title: 'You are here!'
+            });
+
+            marker.setIcon('http://maps.google.com/mapfiles/ms/icons/blue-dot.png')
 
             navigator.geolocation.watchPosition(
             function (position) {
