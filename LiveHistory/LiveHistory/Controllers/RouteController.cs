@@ -12,8 +12,17 @@ namespace LiveHistory.Controllers
     {
         MainDBContext context = new MainDBContext();
 
-        public ActionResult Route()
+        private int routeId;
+
+        public int RouteId
         {
+            get { return routeId; }
+            set { routeId = value; }
+        }
+        
+        public ActionResult Route(int id)
+        {
+            RouteId = id;
             return View();
         }
 
@@ -21,16 +30,16 @@ namespace LiveHistory.Controllers
         {
             RouteModel model = new RouteModel();
 
-            model.Points = GetCollectionOfPoints();
+            model.Points = GetCollectionOfPoints(RouteId);
             return new JsonResult() { Data = new ResultType<List<PointModel>>(model.Points), JsonRequestBehavior = JsonRequestBehavior.AllowGet };
         }
 
-        private List<PointModel> GetCollectionOfPoints()
+        private List<PointModel> GetCollectionOfPoints(int id)
         {
             PointModel points = new PointModel();
 
 
-            List<PointModel> empList = context.Point.ToList();
+            List<PointModel> empList = context.Point.Where(x=>x.Route_Id == id).ToList();
             return empList;
         }
     }
