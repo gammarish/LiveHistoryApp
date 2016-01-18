@@ -9,9 +9,10 @@ namespace LiveHistory.Controllers
     public class RouteDetailsController : Controller
     {
         // GET: RouteDetails
-        public ActionResult RouteDetails()
+        public ActionResult RouteDetails(int id)
         {
-            return View();
+            ViewBag.RouteId = id;
+            return View(ViewBag);
         }
     }
 }

@@ -20,6 +20,24 @@ namespace LiveHistory
               defaults: new { controller = "Route", action = "Route" }
           );
 
+            routes.MapRoute(
+               name: "Contact",
+               url: "Home/Contact",
+               defaults: new { controller = "Contact", action = "Contact" }
+           );
+
+            routes.MapRoute(
+              name: "Ranking",
+              url: "Home/Ranking",
+              defaults: new { controller = "Ranking", action = "Ranking" }
+          );
+
+            routes.MapRoute(
+             name: "RouteList",
+             url: "Home/RouteList",
+             defaults: new { controller = "RouteList", action = "RouteList" }
+         );
+
 
             routes.MapRoute(
                name: "RouteJs",
